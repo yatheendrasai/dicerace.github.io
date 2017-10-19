@@ -21,7 +21,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     
     var tempDOM=document.getElementById('current-'+activePlayer);
     if(dice=='1'){
-        setTimeout(next,500);
+        setTimeout(next,700);
     }
     else{
         roundScore+=dice;
